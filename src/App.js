@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="bg-slate-800 w-screen h-screen">
       <div className="flex flex-col w-10/12 mx-auto p-4">
-        <h1 className="text-3xl text-white mt-8">Cryptography Task</h1>
+        <h1 className="text-3xl text-white mt-8">Cryptography Assessment</h1>
         <hr className="border-2 my-4 bg-slate-600 border-slate-600" />
         <nav className="mx-auto">
           <ul className={`flex gap-4 px-1 relative after:contents-['_'] after:absolute after:h-[2px] after:bg-white after:w-1/2 after:top-10 ${isE === menu[0] ? "after:-translate-x-1" : "after:translate-x-full"} after:transition-all after:duration-300 after:ease-in-out`}>
