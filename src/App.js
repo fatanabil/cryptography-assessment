@@ -14,8 +14,8 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-slate-800 w-screen h-screen">
-      <div className="flex flex-col w-10/12 mx-auto p-4">
+    <div className="bg-slate-800 w-screen h-screen overflow-auto">
+      <div className="flex flex-col w-full md:w-10/12 mx-auto p-4">
         <h1 className="text-3xl text-white mt-8">Cryptography Assessment</h1>
         <hr className="border-2 my-4 bg-slate-600 border-slate-600" />
         <nav className="mx-auto">
